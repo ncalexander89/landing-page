@@ -70,14 +70,12 @@ a {
       padding: 10px 40px;
   }
 
-  .sub-images {
-      width: 20%;
-  }
 
   .information {
       display: flex;
       flex-direction: column;
-      border: 5px solid magenta;
+      margin: 0 -200px;
+      /* border: 5px solid magenta; */
       background-color: white;
 
   }
@@ -86,18 +84,31 @@ a {
       text-align: center;
       font-weight: 800;
       font-size: 36px;
+      padding: 50px 0;
       color: #1F2973;
   }
 
   .sub-images {
       display: flex;
-      /* border: 5px solid goldenrod; */
-      /* justify-content: center; */
+      border: 5px solid goldenrod;
+      justify-content: center;
+      margin: 0 300px 50px 300px;
   }
 
   .image1, .image2, .image3, .image4 {
       display: flex;
       flex-direction: column;
-      border: 5px solid magenta;
+      align-items: center;
+      border: 5px solid mediumseagreen;
+      border-radius: 15px;
 
+  }
+
+  .text {
+      color: #1F2973;
+      text-align: center;
+  }
+
+  .small-image {
+      width: 80%;
   }
