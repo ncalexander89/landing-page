@@ -37,6 +37,7 @@ a {
 
   #main-image {
       width: 50%;
+      margin-left: 80px;
       /* height: 300px; */
   }
 
@@ -75,6 +76,7 @@ a {
       display: flex;
       flex-direction: column;
       margin: 0 -200px;
+      padding-bottom: 100px;
       /* border: 5px solid magenta; */
       background-color: white;
 
@@ -90,17 +92,19 @@ a {
 
   .sub-images {
       display: flex;
-      border: 5px solid goldenrod;
-      justify-content: center;
-      margin: 0 300px 50px 300px;
+      /* border: 5px solid goldenrod; */
+      justify-content: space-between;
+      margin: 0px 300px 50px 300px;
   }
 
   .image1, .image2, .image3, .image4 {
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 5px solid mediumseagreen;
-      border-radius: 15px;
+      /* border: 5px solid moccasin; */
+      height: 150px;
+      width: 150px;
+      /* padding: 20px; */
 
   }
 
@@ -110,5 +114,8 @@ a {
   }
 
   .small-image {
-      width: 80%;
+      width: 100%;
+      border: 5px solid mediumseagreen;
+      border-radius: 15px;
+      margin-bottom: 15px;
   }
